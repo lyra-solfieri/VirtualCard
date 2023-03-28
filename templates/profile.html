@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ name }}'s Profile</title>
+</head>
+<body>
+    <h1>Hello my name is {{ name }}</h1>
+    <h4>My history</h4>
+    <h1>    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+        nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </h1>
+    <div class="profile-links">
+  <div>
+    <strong>LinkedIn:</strong> <a href="{{ linkedin }}">Visit LinkedIn Profile</a>
+  </div>
+  <div>
+    <strong>GitHub:</strong> <a href="{{ github }}">Visit GitHub Profile</a>
+  </div>
+</div>
+<style>
+  .profile-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+</style>
+
+</body>
+</html>

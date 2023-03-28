@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ name }} - QR Code</title>
+  <link href="{{ url_for('static', filename='qr_code_style.css') }}" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="qr-code-container">
+    <h1 class="qr-code-title">{{ name }}</h1>
+    <h1>Scan Me </h1>
+    <img src="{{ url_for('static', filename='qr_code.png') }}" alt="QR Code" class="qr-code-image">
+  </div>
+</body>
+</html>
