@@ -12,7 +12,7 @@
 
     1.Clone o repositório para sua máquina local
     2.Instale as dependências com o comando pip install -r requirements.txt
-    3.Inicie o servidor com o comando python app.py
+    3.Inicie o servidor com o comando python run.py
 
 ## Uso
 
